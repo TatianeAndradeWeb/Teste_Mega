@@ -1,0 +1,18 @@
+@import "/css/base/reset.css";
+@import "/css/base/variaveis.css";
+@import "/css/layout/cabecalho.css";
+@import "/css/layout/rodape.css";
+@import "/css/modulo/movie.css";
+
+
+@media only screen and (max-width: 400px){
+    header {
+        width: auto;
+    }
+    main {
+        width: auto;
+    }
+    .movie {
+        width: auto;
+    }
+}
